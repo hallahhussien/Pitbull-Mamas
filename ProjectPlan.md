@@ -1,8 +1,8 @@
 # Project Plan
 
 ### Week 1
-- [ ] Create project repository on GitHub
-- [ ] Complete Problem Statement
+- [x] Create project repository on GitHub
+- [x] Complete Problem Statement
 
 ## Week 2
 - [ ] List technologies and how they will be used
