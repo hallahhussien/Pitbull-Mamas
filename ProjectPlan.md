@@ -1,17 +1,17 @@
 # Project Plan
 
 ### Week 1
-- [ ] Create project repository on GitHub
-- [ ] Complete Problem Statement
+- [x] Create project repository on GitHub
+- [x] Complete Problem Statement
 
 ## Week 2
-- [ ] List technologies and how they will be used
-- [ ] Time log entries
-- [ ] Begin project plan
-- [ ] Complete screen design
-- [ ] Create project structure in IntelliJ
-- [ ] Add project to repository
-- [ ] Time log entries
+- [x] List technologies and how they will be used
+- [x] Time log entries
+- [x] Begin project plan
+- [x] Complete screen design
+- [x] Create project structure in IntelliJ
+- [x] Add project to repository
+- [x] Time log entries
 
 ### Week 3
 - [ ] Determine possible Web Services or APIs to use
