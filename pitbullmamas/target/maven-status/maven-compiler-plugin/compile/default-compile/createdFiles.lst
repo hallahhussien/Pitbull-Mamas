@@ -1,7 +1,5 @@
 edu/matc/util/LocalDateAttributeConverter.class
 edu/matc/entity/User.class
 edu/matc/persistence/UserDao.class
-edu/matc/entity/UserBean.class
+edu/matc/persistence/SessionFactoryProvider.class
 edu/matc/controller/Index.class
-edu/matc/controller/LoginUser.class
-edu/matc/persistence/ConnectionManager.class
