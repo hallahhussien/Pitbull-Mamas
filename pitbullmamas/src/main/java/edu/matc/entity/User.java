@@ -1,167 +1,85 @@
 package edu.matc.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Table;
-import java.time.LocalDate;
-
 /**
  * A class to represent a user.
- * @author Hallah
- *
+ * Created by student on 2/12/17.
  */
-@Entity
-@Table(name = "users")
 public class User {
-
-    @userId
-    @GeneratedValue(generator="increment")
-    @Column(name = "userId")
-    private int userId;
-
-    @Column(name = "firstName")
-    private String firstName;
-
-    @Column(name = "lastName")
-    private String lastName;
-
-    @Column(name = "email")
+    private int id;
     private String email;
-
-    @Column(name = "password")
     private String password;
-
-    @Column(name = "locatedIn")
+    private String firstName;
+    private String lastName;
     private String location;
+    private String puppyPicture;
 
-
-    @SuppressWarnings("Since15")
-    @Column(name = "last_updated")
-    private LocalDate last_updated;
 
     /**
-     * Empty constructor
+     * Instantiates a new User.
+     *  @param id unique id
+     * @param email email address for the user login
+     * @param password to log in and verify  user login
+     * @param firstName the first name
+     * @param lastName the last name
+     * @param location the zip code
+     * @param puppyPicture the file path of the puppy image
      */
-    public User() {
-
-    }
-
-    /**
-     * Constructor that takes in four parameters to immediately set
-     * to the User's instance variables
-     * @param id
-     * @param firstName
-     * @param lastName
-     * @param email
-     * @param password
-     * @param location
-     * @param last_updated
-     */
-    public User(int id, String firstName, String lastName, String email, String password, String location, LocalDate last_updated) {
-        this.userId = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
+    public User(int id, String email, String password, String firstName, String lastName, String location, String puppyPicture) {
+        this.id = id;
         this.password = password;
-        this.location = location;
-        this.last_updated = last_updated;
-    }
-
-    /**
-     * Getter for id
-     * @return the user's id
-     */
-    public int getUserId() {
-        return userId;
-    }
-
-    /**
-     * Setter for id
-     * @param userId the user's soon-to-be id
-     */
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
-
-    /**
-     * Getter for first name
-     * @return the user's first name
-     */
-    public String getFirstName() {
-        return firstName;
-    }
-
-    /**
-     * Setter for first name
-     * @param firstName the user's soon-to-be first name
-     */
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    /**
-     * Getter for last name
-     * @return the user's last name
-     */
-    public String getLastName() {
-        return lastName;
-    }
-
-    /**
-     * Setter for last name
-     * @param lastName the user's soon-to-be last name
-     */
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    /**
-     * Setter for email
-     * @param email the user's email
-     */
-    public void setEmail(String email) {
         this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.location = location;
+        this.puppyPicture = puppyPicture;
     }
 
-    /**
-     * Getter for email
-     * @return the user's email
-     */
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getEmail() {
         return email;
     }
 
-    /**
-     * Setter for password
-     * @param password the user's password
-     */
-    public void setPassword(String password) {
-        this.password = password;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    /**
-     * Getter for password
-     * @return the user's password
-     */
-    public String getPassword() {
-        return password;
+    public String getFirstName() {
+        return firstName;
     }
 
-    /**
-     * Setter for location
-     * @param location the user's password
-     */
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
     public void setLocation(String location) {
         this.location = location;
     }
 
-    /**
-     * Getter for password
-     * @return the user's password
-     */
-    public String getLocation() {
-        return location;
+    public String getPuppyPicture() {
+        return puppyPicture;
+    }
+
+    public void setPuppyPicture(String puppyPicture) {
+        this.puppyPicture = puppyPicture;
     }
 
 
