@@ -1,1 +1,6 @@
 /home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/util/LocalDateAttributeConverter.java
+/home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/entity/User.java
+/home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/persistence/Database.java
+/home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/persistence/SessionFactoryProvider.java
+/home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/persistence/UserDao.java
+/home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/controller/Index.java

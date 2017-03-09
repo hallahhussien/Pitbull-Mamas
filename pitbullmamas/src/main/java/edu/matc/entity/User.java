@@ -29,11 +29,6 @@ public class User {
 
 
 
-    public User() {
-
-    }
-
-
     public User(String userPassword, String userEmailAddress) {
         this.userPassword = userPassword;
         this.userEmailAddress = userEmailAddress;

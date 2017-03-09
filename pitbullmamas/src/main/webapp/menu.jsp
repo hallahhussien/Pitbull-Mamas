@@ -1,10 +1,16 @@
-<!--Menu For All Apges -->
-
-<div id="menu">
-    <ul>
-        <li><a href="index">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">News/Videos</a></li>
-        <li><a href="userLogin">Log In</a></li>
-    </ul>
+<div class="clear"></div>
+<div class="menu_block">
+    <div class="container_12">
+        <div class="grid_12">
+            <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+                <ul class="sf-menu">
+                    <li class="current"><a href="index.jsp">Home</a></li>
+                    <li><a href="products.jsp">Products</a></li>
+                    <li><a href="login.jsp">Login</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
 </div>

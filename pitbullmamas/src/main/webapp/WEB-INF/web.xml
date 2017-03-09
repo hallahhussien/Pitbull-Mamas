@@ -4,4 +4,13 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+<login-config>
+<auth-method>FORM</auth-method>
+<form-login-config>
+  <form-login-page>/login.jsp</form-login-page>
+  <form-error-page>/login-error.jsp</form-error-page>
+</form-login-config>
+</login-config>
+
 </web-app>
