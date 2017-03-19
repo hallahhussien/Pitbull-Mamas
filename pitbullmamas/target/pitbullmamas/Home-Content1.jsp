@@ -48,7 +48,7 @@
 
 <!--==============================Content=================================-->
 <div class="cont_wrapper">
-    <div class="content">
+    <div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - January 13, 2014!</div>
         <div class="container_12">
         <div class="grid_12">
             <h3 class="head1">Featured Products</h3>
@@ -73,7 +73,7 @@
 </div>
 </div>
 
-<div class="content">
+<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - January 13, 2014!</div>
     <div class="container_12">
         <div class="grid_4">
             <div class="banner b1"><a href="#" class="maxheight">Toys</a><img src="images/toys.jpg" alt=""></div>
