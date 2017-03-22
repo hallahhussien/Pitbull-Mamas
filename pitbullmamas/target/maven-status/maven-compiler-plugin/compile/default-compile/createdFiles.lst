@@ -1,6 +1,9 @@
 edu/matc/util/LocalDateAttributeConverter.class
+edu/matc/persistence/ProductDao.class
+edu/matc/entity/Product.class
+edu/matc/persistence/Database.class
 edu/matc/entity/User.class
 edu/matc/persistence/UserDao.class
 edu/matc/persistence/SessionFactoryProvider.class
+edu/matc/controller/SearchProducts.class
 edu/matc/controller/Index.class
-edu/matc/persistence/Database.class

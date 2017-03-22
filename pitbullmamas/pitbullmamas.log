@@ -1,0 +1,24 @@
+2017-03-20 13:21:40,162 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-20 13:21:40,214 52   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-20 13:21:40,235 73   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2017-03-20 13:21:40,245 83   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2017-03-20 13:21:40,329 167  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-03-20 13:21:40,329 167  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-03-20 21:44:18,376 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-20 21:44:18,397 21   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-20 21:44:18,412 36   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2017-03-20 21:44:18,418 42   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2017-03-20 21:44:18,507 131  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-03-20 21:44:18,507 131  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-03-20 21:44:31,039 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-20 21:44:31,079 40   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-20 21:44:31,086 47   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2017-03-20 21:44:31,102 63   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2017-03-20 21:44:31,205 166  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-03-20 21:44:31,205 166  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-03-22 12:21:37,700 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-22 12:21:37,756 56   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-22 12:21:37,773 73   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2017-03-22 12:21:37,776 76   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2017-03-22 12:21:37,831 131  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-03-22 12:21:37,831 131  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml

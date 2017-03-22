@@ -42,8 +42,8 @@ public class Product {
     @Column(name = "favorited")
     private String favorited;
 
-    @Column(name = "image")
-    private String image;
+    @Column(name = "productImage")
+    private String productImage;
 
 
     /**
@@ -62,10 +62,10 @@ public class Product {
      * @param productPrice price
      * @param favorited user favorited
      * @param featured featured
-     * @param image product image
+     * @param productImage product image
      *
      */
-    public Product(String productName, String productDescription, String productType, String productLink, int productPrice, String favorited, String featured, String image ) {
+    public Product(String productName, String productDescription, String productType, String productLink, int productPrice, String favorited, String featured, String productImage ) {
 
         this.productName = productName;
         this.productDescription = productDescription;
@@ -74,7 +74,7 @@ public class Product {
         this.productPrice = productPrice;
         this.favorited = favorited;
         this.featured = featured;
-        this.image = image;
+        this.productImage = productImage;
 
 
     }
@@ -142,12 +142,12 @@ public class Product {
         this.favorited = favorited;
     }
 
-    public String getImage() {
-        return image;
+    public String getProductImage() {
+        return productImage;
     }
 
-    public void setImage(String image) {
-        this.image = image;
+    public void setProductImage(String productImage) {
+        this.productImage = productImage;
     }
 
 
@@ -157,7 +157,7 @@ public class Product {
     public String toString() {
         return "Product{" +
                 "productName='" + productName + '\'' +
-                ", image=" + image +
+                ", image=" + productImage +
                 '}';
     }
 }

@@ -77,7 +77,7 @@ public class ProductDao {
         product.getProductPrice();
         product.getFeatured();
         product.getFavorited();
-        product.getImage();
+        product.getProductImage();
 
         //Save the employee in database
         session.save(product);
