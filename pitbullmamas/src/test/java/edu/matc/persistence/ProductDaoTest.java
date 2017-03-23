@@ -36,8 +36,7 @@ public class ProductDaoTest {
 
     @Test
     public void update() throws Exception {
-        //user.setFullName("Avi Modahl");
-        //userDao.update(user);
+
 
     }
 
@@ -49,7 +48,7 @@ public class ProductDaoTest {
 
     @Test
     public void delete() throws Exception {
-        productDao.delete(3);
+     //   productDao.delete(3);
 
     }
 

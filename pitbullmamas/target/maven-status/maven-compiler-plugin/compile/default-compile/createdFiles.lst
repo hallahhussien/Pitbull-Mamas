@@ -6,4 +6,5 @@ edu/matc/entity/User.class
 edu/matc/persistence/UserDao.class
 edu/matc/persistence/SessionFactoryProvider.class
 edu/matc/controller/SearchProducts.class
+edu/matc/controller/CreateUser.class
 edu/matc/controller/Index.class

@@ -76,7 +76,7 @@
 <div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - January 13, 2014!</div>
     <div class="container_12">
         <div class="grid_4">
-            <div class="banner b1"><a href="#" class="maxheight">Toys</a><img src="images/toys.jpg" alt=""></div>
+            <div class="banner b1"><a href="#" class="maxheight">Toys</a><img src="images/kong.jpg" alt=""></div>
         </div>
         <div class="grid_4">
             <div class="banner b2"><img src="images/treats.jpeg" alt=""><a href="#" class="maxheight">Food & Treats</a></div>

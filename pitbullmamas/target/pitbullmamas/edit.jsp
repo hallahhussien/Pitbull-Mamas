@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Edit Data</title>
+    <title>Edit Products</title>
 </head>
 <body>
 <h2>Welcome Admin!</h2><br />
-Imagine this page allows editing of your data. In our scenario, only admins can edit.
+Imagine this page allows editing of product data. In our scenario, only admins can edit.
 </body>
 </html>
 

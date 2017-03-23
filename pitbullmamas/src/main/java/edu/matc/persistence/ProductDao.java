@@ -1,7 +1,7 @@
 
 package edu.matc.persistence;
 
-        import edu.matc.entity.Product;
+import edu.matc.entity.Product;
 import org.apache.log4j.Logger;
 import org.hibernate.Criteria;
 import org.hibernate.Session;

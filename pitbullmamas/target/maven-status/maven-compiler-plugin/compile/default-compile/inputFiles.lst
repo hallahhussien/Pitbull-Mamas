@@ -1,6 +1,11 @@
+/home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/persistence/ProductDao.java
+/home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/controller/CreateUser.java
+/home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/controller/SearchProducts.java
+/home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/controller/LoginUser.java
 /home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/util/LocalDateAttributeConverter.java
 /home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/entity/User.java
 /home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/persistence/Database.java
 /home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/persistence/SessionFactoryProvider.java
+/home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/entity/Product.java
 /home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/persistence/UserDao.java
 /home/student/EnterpriseJava/Pitbull-Mamas/pitbullmamas/src/main/java/edu/matc/controller/Index.java
