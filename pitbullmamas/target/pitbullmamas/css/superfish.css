@@ -79,7 +79,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 }
 
 
- 
+
 .sf-menu>li>ul>li>a.sf-with-ul:after {
 	content: '';
 	position: absolute;
@@ -106,7 +106,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 /*================================>> 2 Level <<========================================*/
 .sf-menu li ul,.sf-menu li.sfHover>ul{
 	left: 0px;
-	z-index: 999; 
+	z-index: 999;
 	padding-top: 12px;
 	width: 97px;
 	top: 104px;
@@ -135,7 +135,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 .sf-menu li ul li a{
 	position: relative;
 	z-index: 999;
-	color:#bcbcbc;	
+	color:#bcbcbc;
 
 }
 
@@ -143,8 +143,8 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 
 
-.sf-menu li li a:hover, 
-.sf-menu li.sfHover li.sfHover>a {  
+.sf-menu li li a:hover,
+.sf-menu li.sfHover li.sfHover>a {
 	color: #fff;
 
 }

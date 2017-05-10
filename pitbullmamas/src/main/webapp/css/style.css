@@ -212,6 +212,7 @@ a:hover {
 
 /*header*/
 
+
 .main {
     width: 1080px;
     margin: 0 auto;
@@ -228,8 +229,8 @@ header {
     overflow: hidden;
     padding: 91px 0 52px;
     position: relative;
-
 }
+
 
 
 header h1 {
@@ -244,7 +245,7 @@ header h1 {
 header h1 a {
 	display: inline-block;
 	overflow: hidden;
-	width: 114px;
+	width: 150px;
     height: 130px;
 	font-size: 0;
 	line-height: 0;
@@ -298,7 +299,6 @@ header h1 a img {
     text-align: center;
     color: #24124d;
     font: 60px/60px 'Open Sans', sans-serif;
-    background: url(../images/slogan_bg.jpg) center 0 no-repeat;
 }
 
 .banner a {
@@ -316,14 +316,17 @@ header h1 a img {
 
 .b1 a{
     background-color: #c173b1;
+    width: 50pt;
 }
 
 .b2 a{
     background-color: #8e80a6;
+    width: 50pt;
 }
 
 .b3 a{
     background-color: #9a1356;
+    width: 50pt;
 }
 /**Content**/
 

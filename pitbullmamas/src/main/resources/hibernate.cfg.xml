@@ -13,23 +13,22 @@
         <property name="connection.url">jdbc:mysql://localhost:3306/pitbull_mamas</property>
         <property name="connection.username">root</property>
         <property name="connection.password">student</property>
-        <property name="hibernate.current_session_context_class">thread</property>
+       <!-- <property name="connection.password">uBUs4XoxU9UsEw</property> -->
+        <property name="hibernate.enable_lazy_load_no_trans">true</property>
+
+        <!-- SQL dialect -->
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
 
         <!-- Echo all executed SQL to stdout -->
         <property name="show_sql">true</property>
 
         <!-- List the annotated entity class/es -->
-        <mapping class="edu.matc.controller.Index"/>
-        <mapping class="edu.matc.controller.LoginUser"/>
-        <mapping class="edu.matc.entity.User"/>
-        <mapping class="edu.matc.persistence.UserDao"/>
-        <mapping class="edu.matc.entity.Product"/>
-        <mapping class="edu.matc.persistence.ProductDao"/>
-
-
+        <mapping class="entity.User"/>
+        <mapping class="entity.UserRole"/>
+        <mapping class="entity.Product"/>
+        <mapping class="entity.Maps"/>
+        <mapping class="entity.FavoriteList"/>
 
 
     </session-factory>
-
 </hibernate-configuration>

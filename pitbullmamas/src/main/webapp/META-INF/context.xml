@@ -1,0 +1,14 @@
+<Context docBase="pitbullmamas" path="/pitbullmamas" reloadable="true">
+    <Realm className="org.apache.catalina.realm.JDBCRealm"
+           driverName="com.mysql.jdbc.Driver"
+           connectionURL="jdbc:mysql://localhost:3306/pitbull_mamas?user=tomcat&amp;password=tomcat"
+           userTable="user"
+           userNameCol="userName"
+           userCredCol="userPassword"
+           userRoleTable="user_roles"
+           roleNameCol="role_name">
+        <CredentialHandler
+                className="org.apache.catalina.realm.MessageDigestCredentialHandler"
+                algorithm="sha-256" />
+    </Realm>
+</Context>
